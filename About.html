@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+  		<title>Art Pro</title>
+  		<link rel="stylesheet"  type="text/css" href="stylesheets/aboutStylesheet.css" media="screen">
+	</head>
+	
+	<header>
+			<div class = "title"><a href="ArtProFinal.html">Art Pro</a></div>
+			<div class = "buttonlinks">
+				<div><a href="ArtProFinal.html">Home</a></div>
+				<div><a href="About.html">About</a></div>
+				<div><a href="ContactUs.html">Contact Us</a></div>
+			</div>
+	</header>
+		
+		
+	<body>
+	
+		<div class="demo-wrapper">
+			
+	<!--each tile should specify what page type it opens (to determine which animation) and the corresponding page name it should open-->
+		<div class="dashboard clearfix">
+		<ul class="tiles">
+			<div class="col1 clearfix">
+			<li class="tile tile-big tile-1 slideTextUp" data-page-type="s-page" data-page-name="">
+				<div><p>My name is ? Who am I? What makes me unique? My Values?</p></div>
+				<div><p>Manotej Meka</p></div>
+			</li>
+			<li class="tile tile-small tile tile-2 slideTextRight" data-page-type="r-page" data-page-name ="">
+				<div><p class="icon-arrow-right">Computer Science</p></div>
+				<div><p>Passion towards</p></div>
+			</li>
+			<li class="tile tile-small last tile-3" data-page-type="r-page" data-page-name=" ">
+				<p class="icon-calendar-alt-fill"><img src="images/Hand.png" /></p>
+			</li>
+			<li class="tile tile-big tile-4" data-page-type="r-page" data-page-name="">
+				<figure>
+				<img src="images/Help.jpg" />
+				<figcaption class="tile-caption caption-left">Helping, Volunteering, changing my community</figcaption>
+				</figure>
+			</li>
+			</div>
+	
+			<div class="col2 clearfix">
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="">
+				<div><p><span class="icon-cloudy"></span>Student</p></div>
+			</li>
+			<li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="">
+				<div><p><span class="icon-skype"></span>Artistics Skills</p></div>
+				<div><p>Dance groups, guitar player, occasional artist </p></div>
+			</li>
+			<!--Tiles with a 3D effect should have the following structure:
+				1) a container inside the tile with class of .faces
+				2) 2 figure elements, one with class .front and the other with class .back-->
+			<li class="tile tile-small tile-7 rotate3d rotate3dX" data-page-type="r-page" data-page-name="">
+				<div class="faces">
+				<div class="front"><span class="icon-picassa"><img src="images/Laughing.png"/></span></div>
+				<div class="back"><p>Funny, Happiness</p></div>
+				</div>
+			</li>
+			<li class="tile tile-small last tile-8 rotate3d rotate3dY" data-page-type="r-page" data-page-name="">
+				<div class="faces">
+				<div class="front"><span class="icon-instagram"><img src="images/Thinking.png"/></span></div>
+				<div class="back"><p>Curiosity is what drives me</p></div>
+				</div>
+			</li>
+			</div>
+	
+			<div class="col3 clearfix">      
+			<li class="tile tile-2xbig tile-9" data-page-type="custom-page" data-page-name="">
+				<figure>
+				<img src="images/Me.jpg" />
+				<figcaption class="tile-caption caption-bottom"> Voluntering event. Cutting down corn plants 
+					for community Haloween decorations.
+				</figure>
+			</li>
+			<li class="tile tile-big tile-10" data-page-type="s-page" data-page-name="">
+				<div><p>I value frienship, family and community</p></div>
+			</li>
+			</div>
+		</ul>
+		</div><!--end dashboard-->
+	</div>
+
+	
+	</body>
+	<footer>
+		<center>
+			Art Pro is optimized for learning, exploring, and pleasure. Content might be owned by other authors who
+			have the right to restrict their content use. While using this site, you agree to have read and 
+			accepted our terms of use. <b>Copyright 2015 by Manotej Meka. All Rights Reserved. </b>
+		</center>
+	</footer>
+	
+	<script src="js/jquery-1.8.2.min.js"></script>
+  	<script src="js/scripts.js"></script>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+  		<title>Art Pro</title>
+  		<link rel="stylesheet"  type="text/css" href="stylesheets/stylesheet.css" media="screen">
+		<script src="js/modernizr-1.5.min.js"></script>
+	</head>
+	
+	<header>
+			<div class = "title"><a href="ArtProFinal.html">Art Pro</a></div>
+			<div class = "buttonlinks">
+				<div><a href="ArtProFinal.html">Home</a></div>
+				<div><a href="About.html">About</a></div>
+				<div><a href="ContactUs.html">Contact Us</a></div>
+			</div>
+	</header>
+		
+		
+	<body>
+	
+		<div class="demo-wrapper">
+			<!-- classnames for the pages should include: 1) type of page 2) page name-->
+			<div class="s-page intro-page">
+				<div class="page-content">
+					<h2 class="page-title">Welcome !</h2>
+					<center>This is a website dedicated to providing you the means of exploring 
+						many different forms of art.
+						
+						<br></br>
+						<p><strong>Experience</strong> the culture of art</p>
+						<p><strong>Explore</strong> arts from around the world</p>
+						<p>Find your inner <strong>passion</strong></p>
+					</center>
+				</div>
+				<div class="close-button s-close-button">x</div>
+			</div>
+			<div class="s-page custom-page">
+				<div class="page-content">
+					<h2 class="page-title">Thank You!</h2>
+				</div>
+				<div class="close-button s-close-button">x</div>
+			</div>
+			<div class="r-page baloons">
+				<div class="page-content">
+					<h2 class="page-title">Hot Air Baloons</h2>
+					<p>Scenic view in the sky where the ballons light up the night sky.
+						The moon illuminates the view of a lifetime.
+					</p>
+					<figure><img src="images/Baloon2.jpg" height="547.2" width="729.6"/>
+						<p>Preparing the baloons for the night.</p>
+					</figure>
+					
+					<figure><img src="images/Baloon1.jpg" height="547.2" width="729.6"/>
+						<p>Filling all the baloons with air.</p>
+					</figure>
+					
+					<figure><img src="images/Baloon3.jpg" height="547.2" width="729.6"/>
+						<p>Beginning of the night show.</p>
+					</figure>
+				</div>
+				<div class="close-button s-close-button">x</div>
+			</div>
+			<div class="r-page bowling-page">
+				<div class="page-content">
+					<h2 class="page-title">Bowling 101</h2>
+					<p>
+						A fun event with friends and family using the new iPhone5s camera to create slo-motion video at 120fps.
+					</p>
+					<iframe width="854" height="480" src="https://www.youtube.com/embed/fUFEvlnF0fw" frameborder="0" allowfullscreen></iframe>
+					
+					
+				</div>
+				<div class="close-button s-close-button">x</div>
+			</div>
+			<div class="r-page Ironman">
+				<div class="page-content">
+					<h2 class="page-title">Iron Man and Thor Hammer</h2>
+					<p>
+						A beautiful representation of the Marvel superhero. 
+					</p>
+					<figure><img src="images/Ironman_Thor.jpg" />
+						<p>By: Gayatri Padala</p>
+					</figure>
+				</div>
+				
+				<div class="close-button r-close-button">x</div>
+			</div>
+			<div class="r-page fusion">
+				<div class="page-content">
+					<h2 class="page-title">2013 Senior Fusion Performance</h2>
+					<p>
+						A student lead organization presents a mashup of culture dances from India.
+					</p>
+					<iframe width="854" height="480" src="https://www.youtube.com/embed/zB5SNClcM9w" frameborder="0" allowfullscreen></iframe>		
+				</div>
+				<div class="close-button r-close-button">x</div>
+			</div>
+			<div class="r-page south-indian">
+				<div class="page-content">
+					<h2 class="page-title">2015 MSU Satrang South Indian Dance Performance</h2>
+					<p>
+						A group of individuals dedicated their leisure time to come together and practice day and night for this show.
+						They are representing and presenting the culture dance from South India. 
+					</p>
+					<iframe width="854" height="480" src="https://www.youtube.com/embed/RwS4y6-LlwY" frameborder="0" allowfullscreen></iframe>
+				</div>
+				
+				<div class="close-button r-close-button">x</div>
+			</div>
+	<!--each tile should specify what page type it opens (to determine which animation) and the corresponding page name it should open-->
+		<div class="dashboard clearfix">
+		<ul class="tiles">
+			<div class="col1 clearfix">
+			<li class="tile tile-big tile-1 slideTextUp" data-page-type="s-page" data-page-name="intro-page">
+				<div><p>Welcome to</p></div>
+				<div><p>ArtPro!</p></div>
+			</li>
+			<li class="tile tile-small tile tile-2 slideTextRight" data-page-type="r-page" data-page-name ="baloons">
+				<div><p class="icon-arrow-right">Night Lights in the Sky</p></div>
+				<div><p>Hot Air Baloons</p></div>
+			</li>
+			<li class="tile tile-small last tile-3" data-page-type="" data-page-name="">
+				
+				<div><a href="About.html"><p class="icon-calendar-alt-fill">Me</p></a></div>
+			</li>
+			<li class="tile tile-big tile-4" data-page-type="r-page" data-page-name="bowling-page">
+				<figure>
+				<img src="images/Bowling1.jpg" />
+				<figcaption class="tile-caption caption-left">Bowling 101</figcaption>
+				</figure>
+			</li>
+			</div>
+	
+			<div class="col2 clearfix">
+			<li class="tile tile-big tile-5" data-page-type="r-page" data-page-name="fusion">
+				<div><p><span class="icon-cloudy"></span>Fusion Dance Performance</p></div>
+			</li>
+			<li class="tile tile-big tile-6 slideTextLeft" data-page-type="r-page" data-page-name="south-indian">
+				<div><p><span class="icon-skype"></span>South Indian Dance</p></div>
+				<div><p>2015 Performance at Michigan State University</p></div>
+			</li>
+			
+			<li class="tile tile-big tile-8" data-page-type="s-page" data-page-name="custom-page">
+				<div><p>Coming Soon.... with many other features.</p></div>
+			</li>
+			</div>
+	
+			<div class="col3 clearfix">      
+			<li class="tile tile-2xbig tile-7" data-page-type="custom-page" data-page-name="Ironman">
+				<figure>
+				<img src="images/Ironman_Thor.jpg" />
+				<figcaption class="tile-caption caption-bottom"> The power of the hammer lies on the one worth of it.
+				</figure>
+			</li>
+			</div>
+		</ul>
+		</div><!--end dashboard-->
+	</div>
+	
+	
+	</body>
+	<footer>
+		<center>
+			Art Pro is optimized for learning, exploring, and pleasure. Content might be owned by other authors who
+			have the right to restrict their content use. While using this site, you agree to have read and 
+			accepted our terms of use. <b>Copyright 2015 by Manotej Meka. All Rights Reserved. </b>
+		</center>
+	</footer>
+	
+	<script src="js/jquery-1.8.2.min.js"></script>
+  	<script src="js/scripts.js"></script>
+</html>
